@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+ 
+  .nav-bar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px 30px;
+  }
+  
+  .nav-bar li {
+    display:inline-block;
+    vertical-align: middle;
+  }
+  
+  .nav-bar img {
+    margin-top: 3px;
+  }
+  
+  .txtlnk {
+    padding: 0px 7px;
+  }
+  
+  #apps {
+    height: 22px;
+    width: 22px;
+    padding: 0 7px;
+  }
+  
+  #notifications {
+    height: 22px;
+    width: 22px;
+    padding: 0 14px 0 7px;
+  }
+  
+  #avatar {
+    background-size: 32px 32px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    padding: 0;
+  }
+  
+.main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo {
+    height: 231px;
+    margin-top: 80px;
+  }
+  
+  .logo img {
+    width: 269px;
+    height: 95px;
+    padding-top: 112px;
+  }
+  
+  .searchmictext {
+    width: 568px;
+    height: 27px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .searchmictext input[type=text] {
+    width: 568px;
+    height: 100%;
+    border: 1px solid #ddd;
+    float: left;
+    cursor: auto;
+    -webkit-apperance: textfield;
+  }
+  
+  .microphone {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .microphone img {
+    position: relative;
+    height: 21px;
+    top: 5px;
+    right: 5px;
+    float: right;
+  }
+  
+  .searchbuttons {
+    clear: left;
+    margin-top: 19px;
+  }
+  
+  .searchbuttons input[type=submit] {
+    border-radius: 2px;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #f5f5f5;
+    height: 29px;
+    padding: 3px 8px;
+    font-size: 11px;
+    margin-right: 6px;
+    margin-left: 6px;
+    cursor: pointer;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    line-height: 14px;
+    border-top: 1px solid #e4e4e4;
+  }
+  
+  .footer li {
+    display:inline-block;
+  }
+  
+  .footer a {
+    padding: 0 14px;
+    color: #666;
+  }
+  
+  .footer_right {
+    margin-right: 16px;
+    float: right;
+  }
+  
+  .footer_left {
+    margin-left: -24px;
+    float: left;
+    display: block;
+  }
